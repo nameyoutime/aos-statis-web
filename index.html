@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aos</title>
+
+
+    <link href="./style.css" rel="stylesheet">
+    <link href="./aos-master/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body id="style-1">
+    <div class="nav" style="z-index: 100;">
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="https://www.iscosoftware.com/codepen/logo.svg" alt="My Company"></a>
+            </div>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="home">
+        <div>
+            <div class="banner">
+                <h1 data-aos="zoom-in">Maecenas luctus lectus</h1>
+                <p data-aos="zoom-in" data-aos-delay="500">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                <a class="button-flip" data-aos="flip-left" data-aos-delay="1000">
+                    <span class="button-flip-face">Super</span>
+
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div id="about">
+            <div class="about poco" data-aos="flip-left" >
+                <img src="https://images.unsplash.com/photo-1615215271771-f34c47f03697?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                    alt="">
+                <h2>Dummy Text</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis pariatur modi, rerum tempore ab
+                    velit
+                    adipisci odio in animi esse saepe, qui doloribus quia! Error numquam magnam in blanditiis eius.
+                </p>
+
+            </div>
+            <div class="about dog" data-aos="flip-left" data-aos-delay="500">
+                <img src="https://images.unsplash.com/photo-1608096299210-db7e38487075?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1498&q=80"
+                    alt="">
+                <h2>Dummy Text</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tempora nobis eveniet ex
+                    incidunt
+                    esse omnis amet aut blanditiis aliquam, sequi libero? Non necessitatibus harum dolorum asperiores
+                    veritatis dicta omnis.
+                </p>
+            </div>
+            <div class="about parrot" data-aos="flip-left" data-aos-delay="1000">
+                <img src="https://images.unsplash.com/photo-1496387314164-18b0105f7553?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80"
+                    alt="">
+                <h2>Dummy Text</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur animi reprehenderit blanditiis
+                    praesentium repellendus! Fugiat reprehenderit esse animi officia magni velit in officiis corporis,
+                    reiciendis, cumque cupiditate minima ipsam tenetur.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+
+        <div class="container" >
+            <div class="contact" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-delay="500"
+            >
+                <div class="overlay"></div>
+                <div class="contact_title">Contact Us</div>
+                <div class="contact_container">
+                    <div class="left"></div>
+                    <div class="right">
+                        <div class="right__title">Sign Up</div>
+                        <div class="name_cnt">
+                            <input type="text" class="name" id="name" required>
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="email_cnt">
+                            <input type="email" class="email" id="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="uname_cnt">
+                            <input type="text" class="uname" id="uname" required>
+                            <label for="uname">User Name</label>
+                        </div>
+                        <div class="password_cnt">
+                            <input type="password" class="password" id="password" required>
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="password_cnt">
+                            <input type="password" class="password" id="password" required>
+                            <label for="password">Repeat Password</label>
+                        </div>
+                        <div class="btn_ctn">
+                            <button class="btn signin">Sign Up</button>
+                            <button class="btn signup">Sign In</button>
+                        </div>
+                        <div class="right__text">
+                            <i class="fab fa-github"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-medium"></i>
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./aos-master/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 200,
+                duration: 1000,
+            });
+        </script>
+</body>
+
+</html>
